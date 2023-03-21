@@ -1,0 +1,26 @@
+ category  | rental_length_category | count 
+ Animation |                      1 |    22
+ Animation |                      2 |    10
+ Animation |                      3 |    16
+ Animation |                      4 |    18
+ Children  |                      1 |    15
+ Children  |                      2 |    15
+ Children  |                      3 |    17
+ Children  |                      4 |    13
+ Classics  |                      1 |    15
+ Classics  |                      2 |    13
+ Classics  |                      3 |    13
+ Classics  |                      4 |    16
+ Comedy    |                      1 |    12
+ Comedy    |                      2 |    18
+ Comedy    |                      3 |    13
+ Comedy    |                      4 |    15
+ Family    |                      1 |    13
+ Family    |                      2 |    15
+ Family    |                      3 |    20
+ Family    |                      4 |    21
+ Music     |                      1 |    10
+ Music     |                      2 |    10
+ Music     |                      3 |    19
+ Music     |                      4 |    12
+
