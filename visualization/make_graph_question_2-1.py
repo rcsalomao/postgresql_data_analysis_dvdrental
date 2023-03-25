@@ -10,10 +10,13 @@ grouped = df.groupby("store_id")
 store_1 = grouped.get_group(1)
 store_2 = grouped.get_group(2)
 
-df_plot = pd.DataFrame()
-df_plot["period"] = store_1["period"].to_numpy()
-df_plot["store_2_count"] = store_2["count_rentals"].to_numpy()
-df_plot["store_1_count"] = store_1["count_rentals"].to_numpy()
+df_plot = pd.DataFrame(
+    {
+        "period": store_1["period"].values,
+        "store_2_count": store_2["count_rentals"].values,
+        "store_1_count": store_1["count_rentals"].values,
+    }
+)
 df_plot.sort_values(by="period", inplace=True)
 
 df_plot["period"] = (df_plot["period"].astype("str")).str.extract(r"(^\d{4}-\d{2})")
